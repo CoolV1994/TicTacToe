@@ -1,0 +1,8 @@
+RewriteEngine On
+
+RewriteBase /TicTacToe
+
+RewriteRule ^serverList$  server_list.php
+RewriteRule ^getIP$  get_ip.php
+RewriteRule ^addServer$  add_server.php
+RewriteRule ^removeServer$  remove_server.php
